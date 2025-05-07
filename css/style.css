@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  canvas#flappyCanvas {
+    background-image:url(../background.png  );
+    display: block;
+    width:100%; 
+    height: 100%;
+ 
+  }
+  .score {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    user-select: none;
+  }
+  .message {
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  
